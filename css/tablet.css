@@ -1,0 +1,291 @@
+@media only screen and (max-width: 992px) and (min-width: 600px) {
+  /* Navbar styling */
+
+  #navbar {
+    max-width: 100%;
+    padding: 30px 15px;
+  }
+
+  .logo-area {
+    flex-basis: 20%;
+  }
+
+  .head-logo {
+    cursor: pointer;
+    max-width: 90%;
+  }
+
+  menu {
+    flex-basis: 50%;
+  }
+
+  .head-menu {
+    list-style: none;
+    text-align: left;
+  }
+
+  .menu-items {
+    display: inline-block;
+    font-size: 15px;
+    color: #dddddd;
+    margin-left: 15px;
+    cursor: pointer;
+    transition: 0.5s;
+  }
+
+  .menu-items:hover {
+    color: #f4694c;
+  }
+
+  .head-btnarea {
+    flex-basis: 30%;
+    text-align: right;
+  }
+
+  .sign-in {
+    border: none;
+    background-color: rgba(255, 255, 255, 0);
+    color: #dddddd;
+    font-size: 16px;
+    margin-right: 20px;
+    transition: 0.5s;
+  }
+
+  .sign-in:hover {
+    color: #f4694c;
+    cursor: pointer;
+  }
+
+  .sign-up {
+    background-color: #f4694c;
+    border: 0;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 35px;
+    transition: 0.5s;
+  }
+
+  .sign-up:hover {
+    background-color: #d94e33;
+    cursor: pointer;
+  }
+
+  /* Hero Area Styling */
+
+  .hero-area {
+    max-width: 100%;
+    padding: 0 15px;
+  }
+
+  .hero-heading {
+    font-size: 40px;
+  }
+
+  .hero-sub-heading br {
+    display: none;
+  }
+
+  .hero-right {
+    flex-basis: 40%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .hero-right-textarea {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hero-dash-icon {
+    max-width: 80px;
+    padding-bottom: 20px;
+  }
+
+  .hero-right-arrow {
+    max-width: 100px;
+    margin-left: 150px;
+  }
+
+  /* Popular game area styling */
+
+  #popular-game {
+    padding: 100px 15px;
+  }
+
+  .popular-heading {
+    font-size: 40px;
+  }
+
+  .popular-main {
+    width: 100%;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 50px;
+  }
+
+  .games {
+    width: 65%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  /* About section styling */
+
+  #about {
+    padding: 25px 15px 0px 15px;
+  }
+
+  .about-main {
+    width: 80%;
+    flex-direction: column;
+  }
+
+  .about-left {
+    flex-basis: 100%;
+    width: 100%;
+    height: 400px;
+  }
+
+  .space {
+    width: 100%;
+    height: 400px;
+  }
+
+  .about-right {
+    flex-basis: 100%;
+    padding-left: 0;
+  }
+
+  .about-heading br {
+    display: none;
+  }
+
+  .about-heading {
+    font-size: 40px;
+  }
+
+  .about-bio br {
+    display: none;
+  }
+
+  /* Recommend section styling */
+
+  #recommend {
+    padding: 120px 15px;
+  }
+
+  .recommend-main {
+    max-width: 100%;
+  }
+
+  .recommend-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 60px;
+  }
+
+  .recommend-heading {
+    font-size: 40px;
+  }
+
+  .recommend-gicon {
+    max-width: 230px;
+    height: 270px;
+  }
+
+  .recommend-row {
+    width: 80%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  /* Most played games section styling */
+
+  #most-pgame {
+    background-image: url(/Assets/Icons/GAMES\ OF\ THE\ WORLD.svg),
+      linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.968));
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    padding: 70px 15px;
+  }
+
+  .most-pgame-main {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+
+  .most-pgame-heading {
+    font-size: 40px;
+  }
+
+  .most-pgame-main {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+  }
+
+  .most-pgame-left {
+    flex-basis: 100%;
+  }
+
+  .most-pgame-right {
+    flex-basis: 100%;
+  }
+
+  .most-pgame-img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .most-pgame-text br {
+    display: none;
+  }
+
+  .most-pgame-text {
+    font-size: 15px;
+    color: #908887;
+    font-weight: 400;
+    line-height: 1.9;
+    margin: 20px 0 50px 0;
+  }
+
+  .pgame-right-images {
+    width: 100%;
+    display: flex;
+    gap: 30px;
+  }
+
+  .imag1 {
+    width: 45%;
+    margin: 0 auto;
+    height: auto;
+  }
+
+  .imag2 {
+    width: 45%;
+    height: auto;
+    margin: 0 auto;
+  }
+
+  /* Footer area styling */
+
+  #footer-main {
+    max-width: 100%;
+    padding: 80px 15px 40px 15px;
+  }
+
+  .footer-about {
+    font-size: 14px;
+  }
+
+  .footer-menu-items {
+    font-size: 14px;
+  }
+
+  /* 😊 Happy Ending */
+}

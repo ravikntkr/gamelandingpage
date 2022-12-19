@@ -1,0 +1,403 @@
+@media only screen and (max-width: 600px) {
+  /* Navbar styling */
+  header {
+    width: 100%;
+    height: 1000px;
+    background-image: url(/Assets/Photos/futuristic-bg.png),
+      linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+  }
+
+  #navbar {
+    max-width: 100%;
+    padding: 25px 15px;
+  }
+
+  .logo-area {
+    flex-basis: 40%;
+  }
+
+  .head-logo {
+    max-width: 80%;
+  }
+
+  menu {
+    display: none;
+  }
+
+  .head-btnarea {
+    flex-basis: 60%;
+  }
+
+  .sign-in {
+    font-size: 15px;
+    margin-right: 15px;
+  }
+
+  .sign-up {
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 25px;
+    border: 0;
+  }
+
+  /* Hero Area Styling */
+
+  .hero-area {
+    max-width: 100%;
+    flex-direction: column;
+    padding: 0 15px;
+  }
+
+  .hero-left {
+    flex-basis: 100%;
+    padding-top: 50px;
+  }
+
+  .hero-heading {
+    font-size: 30px;
+  }
+
+  .hero-sub-heading br {
+    display: none;
+  }
+
+  .hero-sub-heading {
+    margin-top: 15px;
+  }
+
+  .hero-btnarea {
+    margin-top: 30px;
+  }
+
+  .get-started {
+    font-size: 17px;
+    padding: 13px 25px;
+    margin-right: 20px;
+    display: inline;
+  }
+
+  .learn-more {
+    font-size: 17px;
+    padding: 13px 25px;
+    display: inline;
+  }
+
+  .hero-right {
+    flex-basis: 100%;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .play-btn {
+    margin-top: 100px;
+  }
+
+  .hero-right-textarea {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .hero-dash-icon {
+    max-width: 80px;
+    padding-bottom: 20px;
+  }
+
+  .hero-right-arrow {
+    max-width: 100px;
+    padding-top: 15px;
+    margin-left: 180px;
+  }
+
+  /* Popular game area styling */
+
+  #popular-game {
+    padding: 80px 15px;
+  }
+
+  .popular-heading br {
+    display: none;
+  }
+
+  .popular-heading {
+    font-size: 30px;
+  }
+
+  .popular-main {
+    width: 100%;
+    flex-direction: column;
+    gap: 30px;
+    padding-top: 40px;
+  }
+
+  .games {
+    width: 85%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+
+  /* About section styling */
+
+  #about {
+    padding: 20px 15px 100px 15px;
+  }
+
+  .about-main {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .about-left {
+    flex-basis: 100%;
+    width: 100%;
+    height: 400px;
+  }
+
+  .space {
+    width: 100%;
+    height: 400px;
+  }
+
+  .about-right {
+    flex-basis: 100%;
+    padding-left: 0;
+  }
+
+  .about-heading br {
+    display: none;
+  }
+
+  .about-heading {
+    font-size: 30px;
+  }
+
+  .about-bio br {
+    display: none;
+  }
+
+  /* Recommend section styling */
+
+  #recommend {
+    padding: 0px 15px 100px 15px;
+  }
+
+  .recommend-main {
+    max-width: 100%;
+  }
+
+  .recommend-head {
+    padding-bottom: 40px;
+  }
+
+  .recommend-harea {
+    flex-basis: 90%;
+  }
+
+  .recommend-hicons {
+    flex-basis: 10%;
+  }
+
+  .recommend-heading {
+    font-size: 30px;
+  }
+
+  .recommend-gicon {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .recommend-row {
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    gap: 50px;
+  }
+
+  .row1 {
+    padding-top: 30px;
+  }
+
+  .game1,
+  .game3 {
+    flex-basis: 100%;
+  }
+
+  .game2 {
+    flex-basis: 100%;
+  }
+
+  .game4 {
+    flex-basis: 100%;
+  }
+
+  .rgames {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    align-items: inherit;
+    gap: 20px;
+    flex-direction: column;
+  }
+
+  .game-icon {
+    flex-basis: 100%;
+  }
+
+  .rgame-details {
+    flex-basis: 100%;
+  }
+
+  .row2 {
+    padding-top: 50px;
+  }
+
+  /* Most played games section styling */
+
+  #most-pgame {
+    background-image: url(/Assets/Icons/GAMES\ OF\ THE\ WORLD.svg),
+      linear-gradient(rgb(0, 0, 0), rgba(0, 0, 0, 0.968));
+    background-position: center center;
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    padding: 70px 15px;
+  }
+
+  .most-pgame-main {
+    max-width: 100%;
+  }
+
+  .most-pgame-heading {
+    font-size: 30px;
+  }
+
+  .most-pgame-main {
+    width: 100%;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 50px;
+  }
+
+  .most-pgame-left {
+    flex-basis: 100%;
+  }
+
+  .most-pgame-right {
+    flex-basis: 100%;
+  }
+
+  .most-pgame-img {
+    max-width: 100%;
+    height: 450px;
+  }
+
+  .most-pgame-text br {
+    display: none;
+  }
+
+  .most-pgame-text {
+    font-size: 15px;
+    color: #908887;
+    font-weight: 400;
+    line-height: 1.9;
+    margin: 0 0 25px 0;
+  }
+
+  .imag1 {
+    width: 100%;
+    margin: 0 auto;
+    height: 450px;
+    margin-right: 0;
+    margin-top: 25px;
+  }
+
+  .imag2 {
+    width: 90%;
+    height: 270px;
+    margin: 40px 0 0 30px;
+  }
+
+  /* get started section */
+
+  #get-started {
+    background-image: url(/Assets/Photos/Rectangle\ 606.png),
+      linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7));
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-blend-mode: overlay;
+    padding: 150px 15px 120px 15px;
+  }
+
+  .get-started-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 1.5em;
+    color: #ffffff;
+  }
+
+  .get-started-text br {
+    display: none;
+  }
+
+  .get-started-text {
+    text-align: center;
+    font-size: 15px;
+    color: #908887;
+    font-weight: 400;
+    line-height: 1.9;
+    margin: 10px 0 20px 0;
+  }
+
+  .get-started-btn-box {
+    display: flex;
+    justify-content: center;
+  }
+
+  .get-started-btn {
+    background-color: #f4694c;
+    border: 0;
+    color: #ffffff;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 12px 35px;
+    transition: 0.5s;
+  }
+
+  .get-started-btn:hover {
+    background-color: #d94e33;
+    cursor: pointer;
+  }
+
+  /* Footer area styling */
+
+  #footer-main {
+    max-width: 100%;
+    flex-wrap: wrap;
+    padding: 50px 15px 40px 15px;
+  }
+
+  .footer-col2,
+  .footer-col3,
+  .footer-col4,
+  .footer-col5 {
+    flex-basis: 50%;
+    padding-left: 25px;
+  }
+
+  .footer-col1 {
+    flex-basis: 100%;
+    text-align: center;
+    padding-bottom: 40px;
+  }
+
+  .footer-about {
+    text-align: center;
+  }
+
+  /* 😊 Happy Ending */
+}
